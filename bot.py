@@ -72,7 +72,7 @@ async def pep20(ctx):
 
 @bot.command(name='sign', help='Reminds everyone to sign the attendance popup in Odyssey')
 async def sign(ctx):
-    response = '@everyone Émargement disponible !'
+    response = '@septembre2022 Émargement disponible !'
     await ctx.send(response)
 
 @bot.command(name='scrum', help='Sends the Scrum 2020 guide')
